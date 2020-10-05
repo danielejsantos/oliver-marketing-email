@@ -1,0 +1,107 @@
+p.pre-header {
+  margin: 2px;
+}
+
+table.email-container {
+  display: flex;
+  align-items: center;
+  border: 0;
+  width: 640px;
+  margin: auto;
+}
+
+td.itau-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px 0;
+}
+
+td.header {
+  width: 640px;
+  height: 320px;
+  background-color: #ec7000;
+  padding: 0 50px;
+}
+
+td.hello-code {
+  padding: 10px 0;
+}
+
+p.hello-code {
+  font-size: 18px;
+  line-height: 30px;
+  color: #003399;
+  font-weight: bold;
+  margin: 0 50px;
+}
+
+p.normal-paragraph {
+  font-size: 14px;
+  color: #707070;
+  margin: 0 50px;
+}
+
+tr.orange_border {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ec7000;
+  border-radius: 16px;
+  margin: 50px 0;
+  padding: 10px;
+}
+
+p.box-text {
+  color: #003399;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 480px;
+}
+
+td.blue-button {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+tr.footer {
+  display: flex;
+  background-color: #eee9e4;
+  padding: 40px 60px;
+}
+
+p.orange-text {
+  color: #ec7000;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+p.blue-text {
+  color: #003399;
+  font-size: 15px;
+  margin: 0;
+}
+
+td.first-column {
+  width: 222px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.gray-border {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0;
+}

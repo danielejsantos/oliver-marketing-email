@@ -1,0 +1,112 @@
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+* {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+div[style*="margin: 16px 0"] {
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+a[x-apple-data-detectors],  /* iOS */
+        .unstyle-auto-detected-links a,
+        .aBn {
+  border-bottom: 0 !important;
+  cursor: default !important;
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+
+.im {
+  color: inherit !important;
+}
+
+.a6S {
+  display: none !important;
+  opacity: 0.01 !important;
+}
+
+img.g-img + div {
+  display: none !important;
+}
+
+/* iPhone 4, 4S, 5, 5S, 5C, e 5SE */
+@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+  u ~ div .email-container {
+    min-width: 320px !important;
+  }
+}
+/* iPhone 6, 6S, 7, 8, e X */
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+  u ~ div .email-container {
+    min-width: 375px !important;
+  }
+}
+/* iPhone 6+, 7+, e 8+ */
+@media only screen and (min-device-width: 414px) {
+  u ~ div .email-container {
+    min-width: 414px !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .email-container {
+    width: 100% !important;
+    margin: auto !important;
+  }
+
+  .stack-column,
+  .stack-column-center {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    direction: ltr !important;
+  }
+
+  .stack-column-center {
+    text-align: center !important;
+  }
+
+  .center-on-narrow {
+    text-align: center !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important;
+  }
+
+  table.center-on-narrow {
+    display: inline-block !important;
+  }
+
+  .email-container p {
+    font-size: 17px !important;
+  }
+
+  .hideThis {
+    display: none !important;
+  }
+}
